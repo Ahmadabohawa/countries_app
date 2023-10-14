@@ -48,7 +48,7 @@ const CountryInfo = () => {
                       <h5>Region      : <span> {country.region}</span></h5>
                       <h5>Sub Region  : <span> {country.subregion}</span></h5>
                       <h5>Capital     : <span> {country.capital}</span></h5>
-                      <h5>Languages     : <span> {Object.keys(country.languages)}</span></h5>
+                      <h5>Languages     : <span> {Object.keys(country)}</span></h5>
                       <h5> bo : {country.borders?.map((country)=>
 
                        <Link key={index} to={`/country/${country}`}>
